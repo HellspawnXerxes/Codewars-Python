@@ -1,0 +1,7 @@
+def squareDigits(num):
+    r = ''
+    for i in str(num):
+        r = r + str(int(i)**2)
+    print(int(r))
+
+squareDigits(9119) 
